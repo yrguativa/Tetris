@@ -1,0 +1,83 @@
+.card-week {
+    grid-column: 2 / 11;
+    background-color: var(--background-card-week);
+    background: linear-gradient( var(--background-card-week) 0%, rgba(255, 255, 255, 0.0) 80%);
+    color: black;
+    border-radius: 5pt;
+
+    display: grid;
+    grid-template-columns: 200pt repeat(7, 1fr);
+    grid-template-rows: 30pt 1fr;
+}
+
+
+.days {
+    grid-column: 2 / 9;
+    background-color: aqua;
+}
+
+.day {
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.monday {
+    grid-column: 2 /3;
+}
+
+
+.users {
+    grid-column: 1 / 2;
+    /* background-color: brown; */
+}
+
+.user {
+    height: 30pt;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .user-one {
+    background-color: teal;
+}
+.user-two {
+    background-color: yellow;
+}  */
+
+
+.tetris-project {
+    grid-column: 2 / 9;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(3, 30pt);
+    /* grid-row-gap: 3pt; */
+}
+
+.projects {
+    height: 30pt;
+    margin-left: 2pt;
+    border-radius: 3pt;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-one {
+    grid-column: 1 / 4;
+    background-color: greenyellow;
+}
+
+.project-two {
+    grid-column: 4 / 6;
+    background-color: red;
+}
+
+.project-three {
+    grid-column: 1 / 7;
+    background-color: blue;
+}
