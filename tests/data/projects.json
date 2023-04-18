@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name": "Camilo Andres Rodriguez",
+        "projects": [
+            {
+                "id": 1,
+                "name": "Proeject 1",
+                "color": "",
+                "days": 3
+            },
+            {
+                "id": 2,
+                "name": "Proeject 2",
+                "color": "",
+                "days": 2
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "name": "Francis Leonor",
+        "projects": [
+            {
+                "id": 3,
+                "name": "Proeject 3",
+                "color": "",
+                "days": 5
+            }
+            
+        ]
+    },
+    {
+        "id": 1,
+        "name": "Francis Leonor",
+        "projects": [
+            {
+                "id": 4,
+                "name": "Proeject 4",
+                "color": "",
+                "days": 2
+            },
+            {
+                "id": 5,
+                "name": "Proeject 3",
+                "color": "",
+                "days": 3
+            }
+        ]
+    }
+]
