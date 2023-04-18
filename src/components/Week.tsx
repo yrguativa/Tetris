@@ -1,5 +1,6 @@
 
 import './Week.css'
+import { Projects } from './Projects';
 
 export const Week = () => {
     return (
@@ -24,24 +25,7 @@ export const Week = () => {
                     Francisco Jose Bohorquez
                 </div>
             </div>
-            <div className="tetris-project">
-                <div className="projects project-one">
-                    Project 1
-                </div>
-                <div className="projects project-two ">
-                    Project 2
-                </div>
-
-                <div className="projects project-three ">
-                    Project 3
-                </div>
-                <div className="projects  ">
-                    Project 4
-                </div>
-                <div className="projects ">
-                    Project 5
-                </div>
-            </div>
+            <Projects></Projects>
         </div>
     )
 }

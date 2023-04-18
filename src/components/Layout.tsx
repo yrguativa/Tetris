@@ -6,7 +6,7 @@ import './Layout.css';
 export const Layout = () => {
     return (
         <div >
-            <Title></Title>
+            <Title title="Tetris App"></Title>
             <div className="container">
                 Layout
                 <Week></Week>

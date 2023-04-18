@@ -1,0 +1,32 @@
+.tetris-project {
+    grid-column: 2 / 9;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(3, 30pt);
+    /* grid-row-gap: 3pt; */
+}
+
+.projects {
+    height: 30pt;
+    margin-left: 2pt;
+    border-radius: 3pt;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-one {
+    grid-column: 1 / 4;
+    background-color: greenyellow;
+}
+
+.project-two {
+    grid-column: 4 / 6;
+    background-color: red;
+}
+
+.project-three {
+    grid-column: 1 / 7;
+    background-color: blue;
+}
